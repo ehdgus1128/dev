@@ -1,0 +1,21 @@
+<script type="text/javascript">
+    function cancleForm(e) {
+        console.log('cancleForm');
+    }
+    function submitForm() {
+        document.getElementById('insertAddressForm').submit();
+        // document.insertAddressForm.submit();
+    }
+</script>
+ 
+ 
+<meta charset="UTF-8">
+<title>Test</title>
+ 
+ 
+<form name="insertAddressForm" id="insertAddressForm" action="insertAddress.do" method="get">
+    <input type="text" name="address">
+     
+    <button onclick="cancleForm">취소</button>
+    <button onclick="submitForm">확인</button>
+</form>
