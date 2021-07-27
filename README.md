@@ -1,10 +1,5 @@
 # jsdev   
 
-## freeStudying
-* CSP(/CSP)
-  - Content Security Policy
-  - 용어, 문제 발생, 해결, 결론 및 느낀점 등
-
 ## freeCoding
 * getUrlParams(/getUrlParams)   
   - 주어진 URL에서(예:<http://localhost:8080?a=1>) 파라미터를 하나의 object로 변경하기.
