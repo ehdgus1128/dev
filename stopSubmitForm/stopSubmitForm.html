@@ -1,21 +1,23 @@
-<script type="text/javascript">
-    function cancleForm(e) {
-        console.log('cancleForm');
-    }
-    function submitForm() {
-        document.getElementById('insertAddressForm').submit();
-        // document.insertAddressForm.submit();
-    }
-</script>
- 
  
 <meta charset="UTF-8">
 <title>Test</title>
  
  
-<form name="insertAddressForm" id="insertAddressForm" action="insertAddress.do" method="get">
+<form name="insertAddressForm" id="insertAddressForm" action="./insertAddress.do" method="get">
     <input type="text" name="address">
      
     <button onclick="cancleForm">취소</button>
     <button onclick="submitForm">확인</button>
+    <input type="submit" value="확인" onclick="submitForm(); return false;">
+    <a href="javascript:void(0);" onclick="submitForm(); return false;" role="button">확인</a>
 </form>
+<script type="text/javascript">
+    function cancleForm(e) {
+        console.log('cancleForm');
+    }
+    var submitForm = function() {
+        document.getElementById('insertAddressForm').submit();
+        // document.insertAddressForm.submit();
+    }
+</script>
+ 
