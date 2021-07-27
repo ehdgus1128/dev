@@ -1,8 +1,8 @@
 # jsdev
 
 ## projects
-* getUrlParams(#./getUrlParams)   
-  - 주어진 URL에서(예:http://localhost:8080?a=1) 파라미터를 하나의 object로 변경하기.
+* getUrlParams(/getUrlParams)   
+  - 주어진 URL에서(예:<http://localhost:8080?a=1>) 파라미터를 하나의 object로 변경하기.
   - split을 최소로 사용해보자. (split은 무조건 문자열의 모두를 읽어서 해당 문자열을 찾는다.)
 
 ## issues
