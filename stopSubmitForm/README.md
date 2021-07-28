@@ -11,7 +11,7 @@ button default type 이 submit으로 설정되어 있기 때문.(IE7 이하에�
 ## 해결법
 1. button type="button". type을 button으로 지정 후 onclick event를 지정 후 function 내 submit.   
 ```html
-<button  type="button"  submitForm">확인</button>
+<button  type="button"  onclick="submitForm()">확인</button>
 ```
 3. html 표준 input type="submit". (button은 내부 html콘텐츠, ::after/::before 등 여러 렌더링이 더 가능)
 ```html

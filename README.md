@@ -1,11 +1,13 @@
 # jsdev   
 
 ## freeCoding
+* stopSubmitForm(/stopSubmitForm)   
+  - form 내부의 button 태그들이 무조건 submit 될 때의 이유와 해결법
+  
 * getUrlParams(/getUrlParams)   
   - 주어진 URL에서(예:<http://localhost:8080?a=1>) 파라미터를 하나의 object로 변경하기.
   - split을 최소로 사용해보자. (split은 무조건 문자열의 모두를 읽어서 해당 문자열을 찾는다.)
-* stopSubmitForm(/stopSubmitForm)   
-  - form 내부의 button 태그들이 무조건 submit 될 때의 이유와 해결법
+
 
 ## issues
 1. [20210726] on인 상태를 계속 보내고 있는 echo 웹소캣 서버들이 있고 웹훅 웹소캣 서버에서 이를 모니터링한다.   
