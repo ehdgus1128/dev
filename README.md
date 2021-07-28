@@ -1,7 +1,5 @@
 # jsdev   
 
-## commit test
-
 ## freeCoding
 * stopSubmitForm(/stopSubmitForm)   
   - form 내부의 button 태그들이 무조건 submit 될 때의 이유와 해결법
