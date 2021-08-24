@@ -12,7 +12,12 @@
   - split을 최소로 사용해보자. (split은 무조건 문자열의 모두를 읽어서 해당 문자열을 찾는다.)
 
 - deepClone(/deepClone)
+
   - object deep clone
+
+- isInt(/isInt)
+
+  - check if a variable is an integer
 
 ## issues
 
