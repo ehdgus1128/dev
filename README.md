@@ -18,6 +18,10 @@
 - isInt(/isInt)
 
   - check if a variable is an integer
+  
+- isPrime(/isPrime)
+
+  - check if a variable is prime
 
 ## issues
 
